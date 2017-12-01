@@ -46,11 +46,8 @@ No tengo ext-based
 
 ## 4.-Disable transparent hugepage support ##
 
-    "echo never > /sys/kernel/mm/transparent_hugepage/defrag" 
-    
-    and 
-    
-    "echo never > /sys/kernel/mm/transparent_hugepage/enabled"
+    echo never > /sys/kernel/mm/transparent_hugepage/defrag 
+    echo never > /sys/kernel/mm/transparent_hugepage/enabled
 
 
 
